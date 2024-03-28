@@ -29,14 +29,14 @@ body {
   flex-direction: column;
   align-items: center;
   padding-bottom: 15px;
-  background-color: rgb(235, 235, 235);
+  background-color: rgb(215, 215, 215);
 }
 
 .profile-pic {
   width: 180px;
   margin-top: -100px;
   border-radius: 50%;
-  border: 5px solid white;
+  border: 5px solid rgb(215, 215, 215);
 }
 
 .name {
@@ -63,7 +63,7 @@ body {
   text-align: justify;
 }
 
-button {
+.button {
   background-color: purple;
   border: none;
   color: white;
@@ -75,6 +75,11 @@ button {
   cursor: pointer;
   border-radius: 8px;
   box-shadow: 0px 4px 8px rgba(108, 0, 250, 0.411); /* Shadow effect */
+  transition: transform 0.3s;
+}
+
+.button:hover {
+  transform: translateY(-5px);
 }
 
 .section-title {
