@@ -152,6 +152,55 @@ body {
   color: purple;
 }
 
+.float-bar {
+  position: fixed;
+  top: 12px;
+  left: 12px;
+  right: 12px;
+  height: fit-content;
+  padding: 10px;
+  background-color: rgba(148, 0, 148, 0.8);
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  justify-content: space-between;
+  backdrop-filter: blur(8px);
+  z-index: 1000;
+}
+
+.small.button {
+  padding-inline: 10px;
+  max-width: fit-content;
+  justify-self: right;
+  background-color: white;
+  color: purple;
+  box-shadow: none;
+}
+
+.top-pic {
+  height: 40px;
+  display: inline;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.top-name {
+  display: inline;
+  font-weight: 500;
+  color: white;
+}
+
+.profile-name {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.hidden-element {
+  opacity: 0;
+  transition: opacity 0.2s ease; /* optional: add transition for smooth appearance */
+}
+
 @media screen and (max-width: 800px) {
   .card-area {
     grid-template-columns: 1fr 1fr;
