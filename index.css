@@ -120,9 +120,25 @@ body {
 
 .tile-title {
   position: absolute;
+  font-weight: 600;
   bottom: 8px;
   left: 8px;
   margin: 0px;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.tile:hover > .tile-title {
+  opacity: 1;
+}
+
+.play-button {
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.tile:hover .play-button {
+  opacity: 1;
 }
 
 .tile-pic {
@@ -154,9 +170,9 @@ body {
 
 .float-bar {
   position: fixed;
-  top: 12px;
-  left: 12px;
-  right: 12px;
+  top: 10px;
+  left: 10px;
+  right: 10px;
   height: fit-content;
   padding: 10px;
   background-color: rgba(148, 0, 148, 0.8);
@@ -199,6 +215,24 @@ body {
 .hidden-element {
   opacity: 0;
   transition: opacity 0.2s ease; /* optional: add transition for smooth appearance */
+}
+
+.play-cover {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30pt;
+  transition: background-color 0.2s;
+  border-radius: 8px;
+}
+
+.play-cover:hover {
+  background-color: rgba(128, 0, 128, 0.4);
 }
 
 @media screen and (max-width: 800px) {
