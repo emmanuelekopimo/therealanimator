@@ -90,14 +90,58 @@ body {
 .card-area {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 10px;
-  margin-bottom: 50px;
+  gap: 15px;
+  margin-bottom: 0px;
+  justify-items: center;
 }
 
 .card {
   box-shadow: 0px 4px 8px rgba(108, 0, 250, 0.411); /* Shadow effect */
+  border-radius: 8px;
 }
 
 .card-pic {
   width: 100%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.card-title {
+  padding-inline: 6px;
+  text-align: center;
+}
+
+.tile {
+  position: relative;
+  height: 200px;
+  width: 100%;
+}
+
+.tile-title {
+  position: absolute;
+  bottom: 8px;
+  left: 8px;
+  margin: 0px;
+}
+
+.tile-pic {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+@media screen and (max-width: 800px) {
+  .card-area {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .card-area {
+    grid-template-columns: 1fr;
+  }
+  .card {
+    width: 100%;
+  }
 }
