@@ -60,7 +60,7 @@ body {
 }
 
 .desc {
-  font-size: 14pt;
+  font-size: 11.9pt;
   text-align: justify;
 }
 
@@ -68,7 +68,7 @@ body {
   background-color: purple;
   border: none;
   color: white;
-  padding: 8px 32px;
+  padding: 12px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -193,6 +193,7 @@ body {
   background-color: white;
   color: purple;
   box-shadow: none;
+  font-size: 12pt;
 }
 
 .top-pic {
