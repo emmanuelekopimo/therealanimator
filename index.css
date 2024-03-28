@@ -22,6 +22,7 @@ body {
   height: 200px;
   width: 100%;
   background-color: rgb(128, 0, 128);
+  background-image: url(res/bg.png);
 }
 
 .top {
@@ -166,6 +167,7 @@ body {
   font-size: 25pt;
   gap: 15px;
   color: purple;
+  align-items: center;
 }
 
 .float-bar {
@@ -233,6 +235,10 @@ body {
 
 .play-cover:hover {
   background-color: rgba(128, 0, 128, 0.4);
+}
+
+.link {
+  cursor: pointer;
 }
 
 @media screen and (max-width: 800px) {
