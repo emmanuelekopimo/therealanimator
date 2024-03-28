@@ -30,14 +30,14 @@ body {
   flex-direction: column;
   align-items: center;
   padding-bottom: 15px;
-  background-color: rgb(255, 199, 232);
+  background-color: rgb(255, 232, 245);
 }
 
 .profile-pic {
   width: 180px;
   margin-top: -100px;
   border-radius: 50%;
-  border: 5px solid rgb(215, 215, 215);
+  border: 5px solid rgb(255, 232, 245);
 }
 
 .name {
@@ -150,7 +150,7 @@ body {
 }
 
 .bottom-area {
-  background-color: rgb(255, 199, 232);
+  background-color: rgb(255, 232, 245);
   margin-top: 25px;
   padding-block: 25px;
 }
