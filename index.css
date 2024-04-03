@@ -11,6 +11,10 @@
   color: rgb(0, 0, 0);
 }
 
+a {
+  text-align: center;
+}
+
 html,
 body {
   margin: 0px 0px;
@@ -171,7 +175,7 @@ body {
   font-size: 25pt;
   gap: 15px;
   color: purple;
-  align-items: center;
+  align-items: end;
 }
 
 .float-bar {
@@ -316,6 +320,11 @@ body {
   margin: 0px;
   justify-self: center;
   width: 90%;
+}
+
+.button.smaller {
+  font-size: 12pt;
+  font-weight: 500;
 }
 
 @media screen and (max-width: 800px) {
