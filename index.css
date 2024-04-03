@@ -7,6 +7,10 @@
   font-family: "Montserrat", Arial;
 }
 
+.card-area a {
+  color: rgb(0, 0, 0);
+}
+
 html,
 body {
   margin: 0px 0px;
@@ -21,7 +25,7 @@ body {
 .cover {
   height: 200px;
   width: 100%;
-  background-color: rgb(128, 0, 128);
+  background-color: purple;
   background-image: url(res/bg.png);
 }
 
@@ -210,6 +214,20 @@ body {
   color: white;
 }
 
+.top-name-small {
+  display: inline;
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+}
+
+.top-bar {
+  display: grid;
+  grid-template-columns: 40px 1fr 100px;
+  padding-block: 6px;
+  align-items: center;
+  padding-inline: 8px;
+  border-bottom: 0.1px solid purple;
+}
 .profile-name {
   display: flex;
   align-items: center;
@@ -241,6 +259,63 @@ body {
 
 .link {
   cursor: pointer;
+}
+
+.top-pic.pages {
+  border: 2px solid purple;
+}
+
+.button.small.top {
+  background-color: purple;
+  color: white;
+  height: fit-content;
+}
+
+.hot-link {
+  color: purple;
+  text-align: center;
+  cursor: pointer;
+  font-size: 18pt;
+  font-weight: 200;
+}
+
+.work-title {
+  font-size: 16pt;
+  font-weight: 500;
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.body-flex {
+  display: grid;
+  width: 100%;
+  min-height: 100vh;
+  align-items: start;
+  justify-content: stretch;
+}
+
+.bottom-area.hang {
+  align-self: baseline;
+  margin-top: auto;
+}
+
+.wall.page {
+  margin: 0px;
+  justify-self: center;
+  width: 90%;
 }
 
 @media screen and (max-width: 800px) {
