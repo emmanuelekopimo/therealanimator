@@ -15,6 +15,10 @@ a {
   text-align: center;
 }
 
+.social-area a {
+  color: purple;
+}
+
 html,
 body {
   margin: 0px 0px;
