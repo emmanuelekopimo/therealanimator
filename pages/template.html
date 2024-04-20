@@ -36,14 +36,16 @@
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/site.webmanifest">
-    <script src="" defer></script>
+    <script src="./script.js" defer></script>
 </head>
 
 <body class="body-flex">
     <div class="top-bar">
         <a href="./../index.html"><i class="fa fa-arrow-left hot-link" aria-hidden="true"></i></a>
         <div class="profile-name">
-            <img src="./../res/profile-pic.jpg" alt="profile pic" class="top-pic pages">
+            <a href="./../index.html">
+                <img src="./../res/profile-pic.jpg" alt="profile pic" class="top-pic pages">
+            </a>
             <p class="top-name-small">Emmanuel Akpan</p>
         </div>
         <button type="button" class="button small top">
@@ -53,8 +55,7 @@
     <div class="wall page">
         <p class="work-title">Short Advertisement Reel</p>
         <div class="video-container">
-            <iframe width="780" height="400" src="https://www.youtube.com/embed/SPK12MMzSBc?si=y6Kwy1ize272dzu1"
-                title="YouTube video player" frameborder="0"
+            <iframe id="frame" width="780" height="400" src="" title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>

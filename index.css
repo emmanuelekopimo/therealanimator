@@ -127,7 +127,7 @@ body {
 
 .tile {
   position: relative;
-  height: 250px;
+  height: 230px;
   width: 100%;
 }
 
@@ -337,6 +337,11 @@ body {
   }
   .card-area.small {
     grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .tile {
+    position: relative;
+    height: 250px;
+    width: 100%;
   }
 }
 
